@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Felipe Saturnino`,
-    description: `Um blog sobre assuntos variados sob a luz da Psicologia.`,
+    position: `Psicólogo`,
+    description: `Um blog que trata de assuntos variados sob a luz da Psicologia.`,
     author: `@FelipeSaturnino`,
   },
   plugins: [
