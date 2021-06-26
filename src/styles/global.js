@@ -72,7 +72,7 @@ img {
 
 body.dark {
 	--borders: #3c3c3c;
-	--texts: #efefef;
+	--texts: #caccce;
 	--postColor: #fff;
 	--highlight: #f2781f;
 	--mediumBackground: #323232;
