@@ -34,7 +34,11 @@ export const RecommendedLink = styled(Link)`
         content: "\\2190";
         margin-right: 0.5rem;
     }
-
+    &.next:only-child {
+        margin-left: auto;
+        border-left: 1px solid var(--borders);
+      }
+    
     &.next:after {
         content: "\\2192";
         margin-left: 0.5rem;
