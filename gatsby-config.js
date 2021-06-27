@@ -8,6 +8,7 @@ module.exports = {
     position: `Psicólogo`,
     description: `Um blog que trata de assuntos variados sob a luz da Psicologia.`,
     author: `@FelipeSaturnino`,
+    siteUrl: `https://www.felipesaturnino.com`,
   },
   plugins: [
     `gatsby-plugin-transition-link`,
@@ -81,7 +82,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `static/assets/img/felipesaturnino-icon.png`,
       },
     },
     `gatsby-plugin-gatsby-cloud`,
