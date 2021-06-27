@@ -76,11 +76,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Felipe Saturnino`,
+        short_name: `Felipe S`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#f0f0f3`,
+        theme_color: `#fff`,
         display: `minimal-ui`,
         icon: `static/assets/img/felipesaturnino-icon.png`,
       },
