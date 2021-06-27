@@ -4,8 +4,9 @@ import Seo from "../components/seo"
 
 const AboutPage = () => (
     <Layout>
-        <Seo title="About" />
+        <Seo title="Sobre mim"  />
         <h1>About Page</h1>
+        <p>:smile:</p>
     </Layout>
 )
 
