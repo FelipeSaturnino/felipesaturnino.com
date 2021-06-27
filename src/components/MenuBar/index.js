@@ -7,6 +7,7 @@ import { Grid3x3Gap as Grid } from "@styled-icons/bootstrap/Grid3x3Gap"
 import { ThList as List } from "@styled-icons/typicons/Thlist"
 
 
+import getThemeColor from "../../utils/getThemeColor"
 import * as S from "./styled"
 
 const MenuBar = () => {
@@ -26,10 +27,10 @@ const MenuBar = () => {
     return(
     <S.MenuBarWrapper>
         <S.MenuBarGroup>
-        <S.MenuBarLink to="/" title="Página inicial">
+        <S.MenuBarLink to="/" cover direction="right" bg={getThemeColor()} duration={0.6} title="Página inicial">
                 <S.MenuBarItem><Home /></S.MenuBarItem>
             </S.MenuBarLink>
-            <S.MenuBarLink to="/search/" title="Pesquisar">
+            <S.MenuBarLink to="/search/" cover direction="right" bg={getThemeColor()} duration={0.6} title="Pesquisar">
                 <S.MenuBarItem><Search /></S.MenuBarItem>
             </S.MenuBarLink>
         </S.MenuBarGroup>
