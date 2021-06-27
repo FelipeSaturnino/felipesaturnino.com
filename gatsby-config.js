@@ -8,6 +8,7 @@ module.exports = {
     position: `Psicólogo`,
     description: `Um blog que trata de assuntos variados sob a luz da Psicologia.`,
     author: `@FelipeSaturnino`,
+    authorDescription: `CRP | 06/168338`,
     siteUrl: `https://www.felipesaturnino.com`,
   },
   plugins: [
