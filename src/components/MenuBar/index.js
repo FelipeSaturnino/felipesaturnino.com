@@ -4,18 +4,23 @@ import { SearchOutline as Search } from "@styled-icons/evaicons-outline/SearchOu
 import { ArrowToTop as Arrow } from "@styled-icons/boxicons-regular/ArrowToTop"
 import { LightBulb as Light } from "@styled-icons/heroicons-outline/LightBulb"
 import { Grid3x3Gap as Grid } from "@styled-icons/bootstrap/Grid3x3Gap"
+import { ThList as List } from "@styled-icons/typicons/Thlist"
 
 
 import * as S from "./styled"
 
 const MenuBar = () => {
     const [theme, setTheme] = useState(null)
-
-    const isLightMode = theme === 'light'
+    const [display, setDisplay] = useState(null)
+    
+    const isLightMode = theme === "light"
+    const isListMode = display === "list"
 
     useEffect(() => {
         setTheme(window.__theme)
+        setDisplay(window.__display)
         window.__onThemeChange = () => setTheme(window.__theme)
+        window.__onDisplayChange = () => setDisplay(window.__display)
     }, [])
 
     return(
@@ -36,7 +41,11 @@ const MenuBar = () => {
             >
                 <Light />
                 </S.MenuBarItem>
-            <S.MenuBarItem title="Mudar a visualização"><Grid /></S.MenuBarItem>
+            <S.MenuBarItem title="Mudar a visualização" onClick={() => {
+                window.__setPreferredDisplay(isListMode ? 'grid' : 'list' )
+            }}>
+                {isListMode ? <Grid /> : <List />}
+            </S.MenuBarItem>
             <S.MenuBarItem title="Ir para o topo"><Arrow /></S.MenuBarItem>
         </S.MenuBarGroup>
     </S.MenuBarWrapper>
