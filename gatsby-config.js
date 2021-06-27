@@ -51,6 +51,7 @@ module.exports = {
                 linkImagesToOriginal: false,
               },
             },
+            `gatsby-remark-emoji`,
             `gatsby-remark-lazy-load`,
             `gatsby-remark-prismjs`,
           ],
