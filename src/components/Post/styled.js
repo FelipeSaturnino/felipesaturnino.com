@@ -94,11 +94,15 @@ export const MainContent = styled.section`
 
     ul,
     ol {
-        list-style: disc;
         padding-left: 2.5rem;
         margin: 0 auto 1.6rem;
     }
-
+    ol {
+        list-style: decimal;
+    }
+    ul {
+        list-style: disc;
+    }
     li {
         padding: 0.625rem 0;
 
