@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@fontsource/inter": "^4.4.5",
     "algoliasearch": "^3.35.1",
     "dotenv": "^8.6.0",
     "gatsby": "^3.6.2",

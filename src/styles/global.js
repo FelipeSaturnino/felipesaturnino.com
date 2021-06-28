@@ -84,7 +84,7 @@ body.dark {
 body.light {
 	--borders: #dedede;
 	--postColor: #111;
-	--texts: #555;
+	--texts: #444;
 	--highlight: #1fa1f2;
 	--mediumBackground: #f0f0f3;
 	--background: #fff;

@@ -8,6 +8,7 @@ export const SidebarWrapper = styled.aside`
   border-right: 1px solid var(--borders);
   background: var(--mediumBackground);
   display: flex;
+  font-family: "Inter";
   flex-direction: column;
   height: 100vh;
   position: fixed;
