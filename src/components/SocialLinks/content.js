@@ -1,7 +1,7 @@
 const links = [
     {
-        label: 'Github',
-        url: 'https://github.com/FelipeSaturnino',
+        label: 'Linkedin',
+        url: 'https://www.linkedin.com/in/FelipeSaturnino',
     },
     {
         label: 'Twitter',
