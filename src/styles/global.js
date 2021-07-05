@@ -86,7 +86,7 @@ body.light {
 	--postColor: #111;
 	--texts: #444;
 	--highlight: #1fa1f2;
-	--mediumBackground: #f0f0f3;
+	--mediumBackground: #f0f0f0;
 	--background: #fff;
 	--white: #fff;
 	--black: #222;

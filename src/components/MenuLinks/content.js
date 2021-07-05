@@ -5,7 +5,11 @@ const links = [
     },
     {
         label: "Sobre mim",
-        url: "/about/",
+        url: "/sobre-mim/",
+    },
+    {
+        label: "Contato",
+        url: "/contato/",
     }
 ]
 

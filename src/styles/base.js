@@ -75,6 +75,7 @@ export const MainContent = styled.section`
   h4,
   ul,
   ol,
+  label,
   .tags,
   iframe,
   .button-post {
@@ -218,5 +219,37 @@ export const MainContent = styled.section`
     &:hover {
       opacity: 0.8;
     }
+  }
+
+  input[type=text], input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid var(--borders);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 8px 0;
+    resize: vertical;
+    transition: 0.5s;
+    outline: none;
+  }
+  input[type=email]:focus, textarea:focus, input[type=text]:focus {
+      border: 1px solid var(--highlight);
+    }
+    button[type=submit] {
+        background-color: var(--highlight);
+        color: white;
+        font-size: 1.25rem;
+        font-weight: 800;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+  }
+  
+  
+  .container {
+    border-radius: 5px;
+    background-color: var(--mediumBackground);
+    padding: 20px;
   }
 `
