@@ -80,6 +80,10 @@ export const MenuBarItem = styled.span`
   }
   &.light {
     color: #d4d400;
+
+    &:hover {
+        color: #e2e240;
+    }
   }
   &.display {
     ${media.lessThan('large')`
