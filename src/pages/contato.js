@@ -21,12 +21,8 @@ const ContactPage = () => (
                 <input type="text" name="nome" id="name" />
                 </label>
                 <label>
-                    E-mail:
-                    <input type="email" name="email" id="email" />
-                </label>
-                <label>
-                    Assunto:
-                    <input type="text" name="assunto" id="subject" />
+                    E-mail ou telefone:
+                    <input type="text" name="email-telefone" id="email-tel" />
                 </label>
                 <label>
                     Mensagem:
