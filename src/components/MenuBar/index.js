@@ -50,7 +50,7 @@ const MenuBar = ({ setIsMenuOpen, isMenuOpen }) => {
             </S.MenuBarItem>
             </S.MenuBarLink>
             <S.MenuBarLink 
-                to="/search/"
+                to="/buscar/"
                 cover
                 direction="right"
                 bg={getThemeColor()}

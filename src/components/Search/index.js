@@ -12,7 +12,7 @@ const Search = ({ algolia }) => {
     return (
     <S.SearchWrapper>
     <InstantSearch searchClient={searchClient} indexName={algolia.indexName}>
-        <SearchBox translations={{ placeholder: "Pesquisar..." }}/>
+        <SearchBox translations={{ placeholder: "Buscar..." }}/>
         <Stats translations={{
             stats(nbHits, timeSpentMs) {
                 return `${nbHits} resultados encontrados.`

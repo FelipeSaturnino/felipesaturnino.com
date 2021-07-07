@@ -8,13 +8,7 @@ export const searchClickTrack = () => {
   })
 }
 
-export const courseClickTrack = () => {
-  ReactGA.event({
-    category: 'cursos',
-    action: 'click',
-    label: 'Link Curso na Menu Bar'
-  })
-}
+
 
 export const themeTracker = theme => {
   ReactGA.event({
@@ -38,13 +32,5 @@ export const topClickTrack = () => {
     category: 'top',
     action: 'click',
     label: `Top na Menu Bar`
-  })
-}
-
-export const youTubeClickTrack = () => {
-  ReactGA.event({
-    category: 'youtube',
-    action: 'click',
-    label: 'Link YouTube na Menu Bar'
   })
 }
