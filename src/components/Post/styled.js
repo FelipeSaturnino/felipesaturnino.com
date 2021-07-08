@@ -222,7 +222,10 @@ export const MainContent = styled.section`
             z-index: 3;
         }
     }
-
+    .gatsby-resp-image-figcaption {
+        text-align: center;
+        color: var(--postColor);
+    }
     .gatsby-highlight {
         padding: 0 1.6rem 1.6rem;
         ${media.lessThan("large")`
@@ -248,4 +251,9 @@ export const MainContent = styled.section`
             opacity: 0.8;
         }
     }
+    em {
+        font-style: italic;
+      }
+
+
 `
