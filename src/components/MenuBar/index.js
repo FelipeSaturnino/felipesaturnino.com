@@ -73,6 +73,13 @@ const MenuBar = ({ setIsMenuOpen, isMenuOpen }) => {
         <S.MenuBarGroup>
             <S.MenuBarItem title="Mudar o tema" onClick={() => {
                 window.__setPreferredTheme(isLightMode ? 'dark' : 'light')
+                if (window.DISQUS !== undefined) {
+                    window.setTimeout(() => {
+                      window.DISQUS.reset({
+                        reload: true
+                      })
+                    }, 300)
+                  }
             }}
             className={theme}
             >
