@@ -4,7 +4,7 @@ import { SearchOutline as Search } from "@styled-icons/evaicons-outline/SearchOu
 import { ArrowToTop as Arrow } from "@styled-icons/boxicons-regular/ArrowToTop"
 import { LightBulb as Light } from "@styled-icons/heroicons-outline/LightBulb"
 import { Grid3x3Gap as Grid } from "@styled-icons/bootstrap/Grid3x3Gap"
-import { ThList as List } from "@styled-icons/typicons/Thlist"
+import { ThList as List } from "@styled-icons/typicons/ThList"
 import { Menu } from "@styled-icons/boxicons-regular/Menu"
 
 import getThemeColor from "../../utils/getThemeColor"
