@@ -90,6 +90,9 @@ export const MainContent = styled.section`
     h4,
     h5 {
         margin: 2.4rem auto 1rem;
+        ${media.lessThan("large")`
+            margin: 1rem auto;
+        `}
     }
 
     ul,
@@ -117,7 +120,15 @@ export const MainContent = styled.section`
             word-wrap: break-word;
         }
     }
-
+    sup {
+        top: -.5em;
+    }
+    sub, sup {
+        font-size: 75%;
+        line-height: 0;
+        position: relative;
+        vertical-align: baseline;
+    }
     img {
         display: block;
         max-width: 100%;
@@ -225,6 +236,8 @@ export const MainContent = styled.section`
     .gatsby-resp-image-figcaption {
         text-align: center;
         color: var(--postColor);
+        font-weight: 300;
+        letter-spacing: 0.05rem;
     }
     .gatsby-highlight {
         padding: 0 1.6rem 1.6rem;
@@ -238,7 +251,6 @@ export const MainContent = styled.section`
     }
 
     a {
-        border-bottom: 1px dashed var(--highlight);
         color: var(--highlight);
         text-decoration: none;
         transition: opacity 0.5s;

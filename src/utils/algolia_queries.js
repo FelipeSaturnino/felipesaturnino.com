@@ -36,7 +36,7 @@ const postsQuery = `{
     {
       query: postsQuery,
       transformer: ({ data }) => flatten(data.posts.edges),
-      indexName: `Posts`,
+      indexName: `dev_POSTS`,
       settings
     }
   ]

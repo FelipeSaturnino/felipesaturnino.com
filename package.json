@@ -6,6 +6,7 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "@fontsource/inter": "^4.4.5",
+    "@sideway/address": "^4.1.2",
     "algoliasearch": "^3.35.1",
     "dotenv": "^8.6.0",
     "gatsby": "^3.6.2",
@@ -28,6 +29,7 @@
     "gatsby-transformer-remark": "^4.5.0",
     "gatsby-transformer-sharp": "^3.6.0",
     "gsap": "^3.7.0",
+    "joi": "^17.4.0",
     "lazysizes": "^5.3.2",
     "prismjs": "^1.23.0",
     "prop-types": "^15.7.2",

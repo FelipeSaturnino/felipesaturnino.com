@@ -99,6 +99,9 @@ export const MainContent = styled.section`
   h4,
   h5 {
     margin: 2.4rem auto 1rem;
+    ${media.lessThan("large")`
+            margin: 1rem auto;
+        `}
   }
   ul,
   ol {
