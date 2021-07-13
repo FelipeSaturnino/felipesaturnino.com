@@ -44,6 +44,7 @@ const MenuBar = ({ setIsMenuOpen, isMenuOpen }) => {
             bg={getThemeColor()}
             duration={0.6}
             title="Página inicial"
+            activeClassName="active"
             >
             <S.MenuBarItem>
                 <Home />
@@ -56,6 +57,7 @@ const MenuBar = ({ setIsMenuOpen, isMenuOpen }) => {
                 bg={getThemeColor()}
                 duration={0.6}
                 title="Pesquisar"
+                activeClassName="active"
             >
                 <S.MenuBarItem onClick={() => GA.searchClickTrack()}>
                     <Search />
