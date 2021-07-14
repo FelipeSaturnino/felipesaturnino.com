@@ -50,9 +50,9 @@ export const ProfilePosition = styled.small`
   display: block;
   font-size: 1.2rem;
   font-weight: 300;
+  margin-top: .2rem;
   ${media.lessThan('large')`
     font-size: .8rem;
-    margin-top: .2rem;
   `}
 `
 
