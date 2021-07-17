@@ -1,8 +1,11 @@
 import * as React from "react"
 import Layout from "../components/Layout"
 import Seo from "../components/seo"
+import ReCAPTCHA from "react-google-recaptcha";
 
 import { MainContent } from "../styles/base"
+const RECAPTCHA_KEY = process.env.GATSBY_SITE_RECAPTCHA_KEY;
+const recaptchaRef = React.createRef();
 
 export default class SectionContact extends React.Component {
     state = {
@@ -23,6 +26,9 @@ export default class SectionContact extends React.Component {
         .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
         .join("&");
     }
+    handleRecaptcha = value => {
+        this.setState({ "g-recaptcha-response": value });
+      };
     handleSubmit = async (e) => {
         e.preventDefault();
         const options = {
@@ -67,7 +73,11 @@ export default class SectionContact extends React.Component {
             <label htmlFor="contant-form-message" className="form-label">Mensagem: </label>
             <textarea name="message" id="contant-form-message" className="form-textarea" rows="7" value={this.state.message} onChange={this.handleInputChange} />
         </p>
-        <div data-netlify-recaptcha="true"></div>
+        <ReCAPTCHA
+        ref={recaptchaRef}
+        sitekey={RECAPTCHA_KEY}
+        onChange={this.handleRecaptcha}
+         />
         <p className="form-row form-submit">
             <button type="submit" className="button">Enviar</button>
         </p>
