@@ -3,14 +3,14 @@ date: 2021-06-28 05:54:23
 title: 'Como se planejar e desenvolver autocontrole - Estudos #1'
 description: Estudar envolve diversos comportamentos e habilidades. Qual é a importância do planejamento e da autogestão nesse processo?
 category: Educ
-background: "#D6BA32"
+background: "#c4ac2f"
 image: /assets/img/como-se-planejar-e-desenvolver-autocontrole/lofi-girl.jpeg
 
 ---
 
 ## Para quem é a educação?
 
-A sociedade está cada vez mais acelerada e rigorosa com a gestão de nosso tempo. Ainda temos 24 horas por dia e 7 dias por semana, mas eles parecem diminuir ao passo que nos é exigido dar conta de nossa casa, família, relacionamentos, trabalho, lazer, e diversos outros compromissos. Nessa situação, muitos não conseguem separar, também, um momento para se dedicar aos estudos. Ou, quando conseguem, deixam de lado outras coisas importantes como o sono e a vida social. Mais do que uma obrigação para "se tornar alguém" (como se já não fossemos) ou "chegar lá" (onde quer esse lá seja), a educação precisa ser libertadora e para todas as pessoas.
+A sociedade está cada vez mais acelerada e rigorosa com a gestão de nosso tempo. Ainda temos 24 horas por dia e 7 dias por semana, mas eles parecem diminuir ao passo que nos é exigido dar conta de nossa casa, família, relacionamentos, trabalho, lazer, e diversos outros compromissos. Nessa situação, muitos não conseguem separar, também, um momento para se dedicar aos estudos. Ou, quando conseguem, deixam de lado outras coisas importantes como o sono e a vida social. Mais do que uma obrigação para "se tornar alguém" (como se já não fossemos) ou "chegar lá" (onde quer que esse lá seja), a educação precisa ser libertadora e para todas as pessoas.
 
 > _"Se a educação sozinha não transforma a sociedade, sem ela tampouco a sociedade muda."_
 >
@@ -20,7 +20,7 @@ O estudo pode trazer muitos benefícios e oportunidades ao longo de nossa vida. 
 
 
 
-![Tirinha com menino olhando para um adulto e dizendo: 'Não deu pra estudar pra prova! / Eu precisava ver tevê, jogar videogame, rir... / Alguma coisa eu tinha que sacrificar!'](/assets/img/como-se-planejar-e-desenvolver-autocontrole/armandinho-estudar.png "Armandinho. Autoria: Alexandre Beck") 
+<!-- ![Tirinha com menino olhando para um adulto e dizendo: 'Não deu pra estudar pra prova! / Eu precisava ver tevê, jogar videogame, rir... / Alguma coisa eu tinha que sacrificar!'](/assets/img/como-se-planejar-e-desenvolver-autocontrole/armandinho-estudar.png "Armandinho. Autoria: Alexandre Beck") -->
 
 Talvez a cena acima seja familiar para você. Seria comum, por não se preparar e ir mal na prova, que Armandinho fosse visto como preguiçoso ou mau aluno. Essa rotulação não é especialmente útil por vários motivos. Primeiro, porque envolve um _raciocínio circular_, ou seja, tenta explicar um comportamento a partir dele próprio (Armandinho é mau aluno porque não estudou para a prova, e não estudou para a prova porque é um mau aluno). Além disso, considera-o como único responsável por suas dificuldades escolares, abstraindo todas as condições que o levaram a aprender hábitos inadequados, como procrastinar.<sup>[[2]](#cite_note-2)</sup>
 
@@ -52,7 +52,7 @@ O mais comum é que esse estudante escolha a primeira opção. Tirar uma nota ru
 Ter consciência de nossa impulsividade é importante para manejá-la. Mas um comportamento nunca acontece só com o indivíduo, sempre respondemos ao **ambiente que nos cerca**. Então se você busca estudar mais, olhe ao redor, como é seu espaço de estudos? É organizado? Te motiva a estudar mais? Ou você sempre estuda em um lugar diferente?
 
 
-![Garota de headphone estudando](/assets/img/como-se-planejar-e-desenvolver-autocontrole/lofi-girl.jpeg "Lofi girl. Autoria: Juan Pablo Machado")
+![Garota de headphone estudando](/assets/img/como-se-planejar-e-desenvolver-autocontrole/juan-pablo-machado.jpeg "Lofi girl. Autoria: Juan Pablo Machado")
 
 
 
