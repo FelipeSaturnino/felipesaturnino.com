@@ -52,7 +52,7 @@ export default class SectionContact extends React.Component {
         <p>Para entrar em contato comigo, utilize o e-mail <a href="mailto:contato@felipesaturnino.com">contato@felipesaturnino.com</a>, ou envie uma mensagem abaixo.</p>
         <h3>Formulário</h3>
         <div class="container">
-        <form name="contactForm" netlify-honeypot="bot-field" data-netlify="true" id="contact-form" className="contact-form" onSubmit={this.handleSubmit}>
+        <form name="contactForm" netlify-honeypot="bot-field" data-netlify="true" data-netlify-recaptcha="true" id="contact-form" className="contact-form" onSubmit={this.handleSubmit}>
         <input type="hidden" name="bot-field" />
         <input type="hidden" name="form-name" value="contact" />
         <p className="form-row">
