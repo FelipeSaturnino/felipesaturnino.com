@@ -82,7 +82,10 @@ const MenuBar = ({ setIsMenuOpen, isMenuOpen }) => {
                       })
                     }, 300)
                   }
-                  window.grecaptcha.reset();
+                if (window.grecaptcha !== undefined) {
+                    window.grecaptcha.reset();
+                }
+                
 
             }}
             className={theme}
