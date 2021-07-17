@@ -6,6 +6,7 @@ import ReCAPTCHA from "react-google-recaptcha";
 import { MainContent } from "../styles/base"
 const RECAPTCHA_KEY = process.env.GATSBY_SITE_RECAPTCHA_KEY;
 const recaptchaRef = React.createRef();
+const isBrowser = () => typeof window !== "undefined"
 
 
 export default class SectionContact extends React.Component {
@@ -78,7 +79,7 @@ export default class SectionContact extends React.Component {
         <ReCAPTCHA
         ref={recaptchaRef}
         sitekey={RECAPTCHA_KEY}
-        theme={window.__theme}
+        theme={isBrowser() && window.__theme}
         onChange={this.handleRecaptcha}
          />
         </div>

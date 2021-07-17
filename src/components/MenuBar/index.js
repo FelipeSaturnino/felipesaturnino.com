@@ -82,9 +82,7 @@ const MenuBar = ({ setIsMenuOpen, isMenuOpen }) => {
                       })
                     }, 300)
                   }
-                if (window.grecaptcha !== undefined) {
                     window.grecaptcha.reset();
-                }
                 
 
             }}
