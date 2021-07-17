@@ -7,6 +7,7 @@ import { MainContent } from "../styles/base"
 const RECAPTCHA_KEY = process.env.GATSBY_SITE_RECAPTCHA_KEY;
 const recaptchaRef = React.createRef();
 
+
 export default class SectionContact extends React.Component {
     state = {
         name: '',
@@ -73,11 +74,13 @@ export default class SectionContact extends React.Component {
             <label htmlFor="contant-form-message" className="form-label">Mensagem: </label>
             <textarea name="message" id="contant-form-message" className="form-textarea" rows="7" value={this.state.message} onChange={this.handleInputChange} />
         </p>
+        <div className="recaptcha-contact-form">
         <ReCAPTCHA
         ref={recaptchaRef}
         sitekey={RECAPTCHA_KEY}
         onChange={this.handleRecaptcha}
          />
+        </div>
         <p className="form-row form-submit">
             <button type="submit" className="button">Enviar</button>
         </p>

@@ -77,7 +77,6 @@ export const MainContent = styled.section`
   ol,
   label,
   .tags,
-  iframe,
   .button-post {
     color: var(--postColor);
     font-size: 1.25rem;
@@ -128,11 +127,7 @@ export const MainContent = styled.section`
     margin: 1.875rem auto;
   }
   iframe {
-    padding: 0 1.6rem 1.6rem;
     width: 100%;
-    ${media.lessThan('large')`
-      padding: 0 1rem;
-    `}
   }
   blockquote {
     color: var(--postColor);
@@ -235,6 +230,14 @@ export const MainContent = styled.section`
     transition: 0.5s;
     outline: none;
   }
+  .recaptcha-contact-form {
+    margin: 8px 0;
+    padding: 2px 20px;
+    ${media.lessThan('large')`
+      padding: 2px 10px;
+    `}
+
+  }
   input[type=email]:focus, textarea:focus, input[type=text]:focus {
       border: 1px solid var(--highlight);
     }
@@ -248,7 +251,7 @@ export const MainContent = styled.section`
         border-radius: 4px;
         cursor: pointer;
   }
-  
+
   
   .container {
     border-radius: 5px;
