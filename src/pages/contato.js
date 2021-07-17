@@ -57,8 +57,8 @@ export default class SectionContact extends React.Component {
     <MainContent>
         <h1>Contato</h1>
         <p>Para entrar em contato comigo, utilize o e-mail <a href="mailto:contato@felipesaturnino.com">contato@felipesaturnino.com</a>, ou envie uma mensagem abaixo.</p>
-        <h3>Formulário</h3>
-        <div class="container">
+        <h2>Formulário</h2>
+        <div className="container">
         <form name="contactForm" netlify-honeypot="bot-field" data-netlify="true" data-netlify-recaptcha="true" id="contact-form" className="contact-form" onSubmit={this.handleSubmit}>
         <input type="hidden" name="bot-field" />
         <input type="hidden" name="form-name" value="contact" />
@@ -78,6 +78,7 @@ export default class SectionContact extends React.Component {
         <ReCAPTCHA
         ref={recaptchaRef}
         sitekey={RECAPTCHA_KEY}
+        theme={window.__theme}
         onChange={this.handleRecaptcha}
          />
         </div>

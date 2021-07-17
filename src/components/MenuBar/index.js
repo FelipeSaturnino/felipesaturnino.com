@@ -82,6 +82,8 @@ const MenuBar = ({ setIsMenuOpen, isMenuOpen }) => {
                       })
                     }, 300)
                   }
+                  window.grecaptcha.reset();
+
             }}
             className={theme}
             >
