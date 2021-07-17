@@ -238,7 +238,7 @@ export const MainContent = styled.section`
   input[type=email]:focus, textarea:focus, input[type=text]:focus {
       border: 1px solid var(--highlight);
     }
-    button[type=submit] {
+    button {
         background-color: var(--highlight);
         color: white;
         font-size: 1.25rem;
