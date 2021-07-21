@@ -3,7 +3,7 @@ date: 2021-06-28 05:54:23
 title: 'Como se planejar e desenvolver autocontrole - Estudos #1'
 description: Estudar envolve diversos comportamentos e habilidades. Qual é a importância do planejamento e da autogestão nesse processo?
 category: Educ
-background: "#c4ac2f"
+background: "#94821e"
 image: /assets/img/como-se-planejar-e-desenvolver-autocontrole/lofi-girl.jpeg
 
 ---
@@ -20,7 +20,7 @@ O estudo pode trazer muitos benefícios e oportunidades ao longo de nossa vida. 
 
 
 
-<!-- ![Tirinha com menino olhando para um adulto e dizendo: 'Não deu pra estudar pra prova! / Eu precisava ver tevê, jogar videogame, rir... / Alguma coisa eu tinha que sacrificar!'](/assets/img/como-se-planejar-e-desenvolver-autocontrole/armandinho-estudar.png "Armandinho. Autoria: Alexandre Beck") -->
+![Tirinha com menino olhando para um adulto e dizendo: 'Não deu pra estudar pra prova! / Eu precisava ver tevê, jogar videogame, rir... / Alguma coisa eu tinha que sacrificar!'](/assets/img/como-se-planejar-e-desenvolver-autocontrole/armandinho-estudar.png "Armandinho. Por: Alexandre Beck — uso autorizado pelo autor.")
 
 Talvez a cena acima seja familiar para você. Seria comum, por não se preparar e ir mal na prova, que Armandinho fosse visto como preguiçoso ou mau aluno. Essa rotulação não é especialmente útil por vários motivos. Primeiro, porque envolve um _raciocínio circular_, ou seja, tenta explicar um comportamento a partir dele próprio (Armandinho é mau aluno porque não estudou para a prova, e não estudou para a prova porque é um mau aluno). Além disso, considera-o como único responsável por suas dificuldades escolares, abstraindo todas as condições que o levaram a aprender hábitos inadequados, como procrastinar.<sup>[[2]](#cite_note-2)</sup>
 
@@ -32,7 +32,7 @@ Você pode se identificar com algumas dessas questões, mas vale lembrar que **t
 
 ## Reconhecendo os obstáculos
 
-![Mãos de uma mulher desenhando um esquema](/assets/img/como-se-planejar-e-desenvolver-autocontrole/kelly-sikkema.jpg "Autoria: Kelly Sikkema")
+![Mãos de uma mulher desenhando um esquema](/assets/img/como-se-planejar-e-desenvolver-autocontrole/kelly-sikkema.jpg "Por: Kelly Sikkema.")
 
 Uma coisa importante a considerar antes do planejamento é definir quais são os seus objetivos de vida: onde você quer estar daqui a 1, 5, 10 ou 20 anos? Claro que com o tempo nós alteramos nossos ideais, nossas metas, e seguimos caminhos diferentes do planejado. Ainda assim, esse pode ser um ótimo exercício de autoconhecimento e pode te ajudar a decidir o que fazer hoje. O que você precisa fazer para alcançar esses objetivos? Talvez estudar muito algum tema da escola ou faculdade. Talvez fazer algum curso relacionado a sua profissão dos sonhos. Talvez poupar dinheiro para sua graduação. É natural que esses objetivos estejam muito distantes da sua realidade atual, e por isso eles não motivam muito nossas tarefas para **agora**.<sup>[[2]](#cite_note-2)</sup><sup>[[4]](#cite_note-4)</sup> 
 
@@ -46,13 +46,13 @@ Quer um exemplo prático de como essa impulsividade nos afeta? Imagine um estuda
 
 - Sair com os amigos, que trará prazer momentâneo, e vai evitar a dor de cabeça de estudar uma matéria difícil. 
 - Passar a noite estudando a matéria que mais tem dificuldade, se preparando com antecedência, mas aumentando as chances de sair bem na prova.
-
+<!-- um planejamento eficaz é aquele a partir do qual alteramos certos aspectos do nosso mundo, de modo que este mundo nos influencie a sermos mais motivados -->
 O mais comum é que esse estudante escolha a primeira opção. Tirar uma nota ruim na prova é uma coisa muito distante de acontecer, a diversão da festa está muito mais próxima.
 
 Ter consciência de nossa impulsividade é importante para manejá-la. Mas um comportamento nunca acontece só com o indivíduo, sempre respondemos ao **ambiente que nos cerca**. Então se você busca estudar mais, olhe ao redor, como é seu espaço de estudos? É organizado? Te motiva a estudar mais? Ou você sempre estuda em um lugar diferente?
 
 
-![Garota de headphone estudando](/assets/img/como-se-planejar-e-desenvolver-autocontrole/juan-pablo-machado.jpeg "Lofi girl. Autoria: Juan Pablo Machado")
+![Garota de headphone estudando](/assets/img/como-se-planejar-e-desenvolver-autocontrole/juan-pablo-machado.jpeg "Lofi girl. Por: Juan Pablo Machado.")
 
 
 
