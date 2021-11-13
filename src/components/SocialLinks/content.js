@@ -5,7 +5,7 @@ const links = [
     },
     {
         label: 'Twitter',
-        url: 'https://twitter.com/felipesaturnin8',
+        url: 'https://twitter.com/FeSaturnino_',
     },
     {
         label: 'Linkedin',
