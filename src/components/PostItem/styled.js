@@ -41,7 +41,7 @@ export const PostItemTag = styled.div`
     align-items: center;
     background: ${props => props.background ? props.background : 'var(--highlight)'};
     border-radius: 50%;
-    color: #fff;
+    color: ${props => props.color ? props.color : '#fff'};
     display: flex;
     font-size: 1.3rem;
     font-weight: 700;

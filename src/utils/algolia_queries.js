@@ -11,6 +11,7 @@ const postsQuery = `{
           frontmatter {
             title
             background
+            color
             category
             date_timestamp: date
             date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
@@ -36,7 +37,7 @@ const postsQuery = `{
     {
       query: postsQuery,
       transformer: ({ data }) => flatten(data.posts.edges),
-      indexName: `prod_POSTS`,
+      indexName: `dev_POSTS`,
       settings
     }
   ]

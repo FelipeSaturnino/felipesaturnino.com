@@ -23,7 +23,7 @@ const BlogList = props => {
         {postList.map(
             ({
                 node: { 
-                    frontmatter: { background, category, date, description, title },
+                    frontmatter: { background, color, category, date, description, title },
                     timeToRead,
                     fields: { slug }
                 },
@@ -32,6 +32,7 @@ const BlogList = props => {
                 slug={slug}
                 category={category}
                 background={background}
+                color={color}
                 date={date}
                 timeToRead={timeToRead}
                 title={title}
@@ -66,6 +67,7 @@ query PostList($skip: Int!, $limit: Int!) {
           }
           frontmatter {
             background
+            color
             category
             date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
             description
