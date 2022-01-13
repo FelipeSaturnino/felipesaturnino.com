@@ -6,7 +6,7 @@ const Avatar = () => {
     return (
         <S.AvatarWrapper>
         <StaticImage 
-            src="../../../static/assets/img/profile-photo.png" 
+            src="../../../static/assets/img/foto-perfil.png" 
             alt="Felipe Saturnino Avatar" 
             placeholder="tracedSVG"
         />
